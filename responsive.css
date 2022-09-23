@@ -1,0 +1,263 @@
+/*Media Query Starts Here */
+@media screen and (max-width: 376px) {
+  .header1 {
+    width: 100%;
+    /* background-color: yellow; */
+  }
+
+  .head1-row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .head1-col1 {
+    text-align: center;
+  }
+
+  .soc ul {
+    padding: 10px 0;
+  }
+
+  /*Header 2 Media Query Start*/
+  .header2 {
+    position: relative;
+  }
+  .head2-row2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .submenu {
+    display: none;
+    /* width: 200px; */
+    /* padding: 10px 10px; */
+    /* background-color: #f2f6f7; */
+  }
+
+  .menu ul li {
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  /*Header 2 Media Query Ends Here*/
+
+  /*Poster Section Starts Here*/
+  .poster-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .poster-text {
+    padding: 10px;
+  }
+
+  .text2 {
+    font-size: 30px;
+  }
+
+  /*Poster Section Ends Here*/
+
+  /*About Us Section Start Here*/
+  .aboutus-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .abt-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*About Us Section Ends Here*/
+
+  /*Logo Section Strats Here*/
+  .logo-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo1 {
+    padding: 10px 0;
+  }
+
+  /*Logo Section Ends Here*/
+
+  /*Detials Seciton Starts Here*/
+  .det-text {
+    font-size: 15px;
+  }
+
+  .details-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .det-icons ul li {
+    display: inline-block;
+    justify-items: center;
+    padding-right: 4px;
+    margin-right: 0;
+  }
+
+  .det-image {
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: row; */
+  }
+
+  .det-image ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .det-image ul li img {
+    width: 100%;
+  }
+
+  .det-image ul li {
+    max-width: 32%;
+  }
+
+  /*Details Section Ends Here*/
+
+  /*Our Focus Section Starts Here*/
+  .our-boxes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our-box {
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  /*Our Focus Section Ends Here*/
+
+  /*Listing Property Section Starts Here*/
+
+  /*Listing Property Section Ends Here*/
+  /*Sketch Section Starts Here*/
+  .sketch-text3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .sketch-text3 a {
+    margin: 5px 0;
+  }
+  .sketch-text3 .active {
+    border-bottom: none;
+  }
+  /* .sketch-text3 ul li {
+    padding: 10px 10px;
+  } */
+
+  .sketch-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sketch-details {
+    width: 100%;
+  }
+
+  .sketch-img {
+    width: 100%;
+    padding: 10px;
+  }
+
+  /*Sketch Section Ends Here*/
+
+  /*Aminities Section Starts Here*/
+  .ami-mainrow {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+  }
+
+  .ami-boxes {
+    width: 95%;
+  }
+
+  /*Aminities Section Ends Here*/
+
+  /*Testimonials Section Starts Here*/
+
+  /*Testimonials Section Ends Here*/
+
+  /*News Section Starts Here*/
+  .news-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news-box {
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  /*News Section Ends Here*/
+
+  /*Explore Section Start Here*/
+  .explore-content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+  }
+
+  .exp-btn {
+    margin: 30px 0;
+  }
+
+  /*Explore Section Ends Here*/
+
+  /*Footer Section Starts Here*/
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-col1 {
+    width: 100%;
+  }
+
+  .footer-col2 {
+    width: 100%;
+  }
+
+  /*Footer Section Ends Here*/
+
+  /*Terms Section Start Here*/
+  .terms-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .terms-list {
+    margin: 10px 0;
+  }
+
+  .terms-list ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .terms-col1{
+    margin: 10px 0;
+  }
+  
+  /*Terms Section Ends Here*/
+    /*For Swiper Navigation Button Query*/
+    .swipbtn {
+      display: none;
+    }
+}
+
+/*Media Query Ends Here*/

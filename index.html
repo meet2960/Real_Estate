@@ -1,0 +1,1926 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Task-6  -->
+    <title>Real Estate</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css " />
+
+</head>
+
+<body>
+    <div class="container ">
+        <!-- <hr> -->
+        <div class="header1">
+            <div class="main">
+                <div class="head1-row1">
+                    <div class="head1-col1">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-regular fa-envelope"></i> info@webmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-location-dot"></i> 15/A, Nest Tower,
+                                    NYC
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="head1-col2">
+                        <div class="soc">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-edge"></i></a>
+                                </li>
+                                <li>
+                                    <div class="add-btn">
+                                        <span>Add Listing</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="header2">
+            <div class="main">
+                <div class="head2-row2">
+                    <div class="head2-col1">
+                        <div class="logo">
+                            <a href="#"> <i class="fa-solid fa-house-chimney fa-2x"></i></a>
+                        </div>
+                        <div class="logo-text">
+                            <h2>Quater</h2>
+                        </div>
+                    </div>
+                    <div class="head2-col2">
+                        <div class="menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Home <i class="fa fa-caret-down"></i>
+                                        <ul class="submenu">
+                                            <li><a href="#">Home Style 1</a></li>
+                                            <li><a href="#">Home Style 2</a></li>
+                                            <li><a href="#">Home Style 3</a></li>
+                                            <li><a href="#">Home Style 4</a></li>
+                                            <li><a href="#">Home Style 5</a></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">About <i class="fa fa-caret-down"></i>
+                                        <ul class="submenu">
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Services</a></li>
+                                            <li><a href="#">Services Details</a></li>
+                                            <li><a href="#">Portfolio</a></li>
+                                            <li><a href="#">Portfolio Details</a></li>
+                                            <li><a href="#">Team</a></li>
+                                            <li><a href="#">Teams Details</a></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li><a href="#">Shop <i class="fa fa-caret-down"></i>
+                                        <ul class="submenu">
+                                            <li><a href="#">Shop</a></li>
+                                            <li><a href="#">Shop Grid</a></li>
+                                            <li><a href="#">Shop Left Sidebar</a></li>
+                                            <li><a href="#">Shop Right Sidebar</a></li>
+                                            <li><a href="#">Shop Details</a></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li><a href="#">News <i class="fa fa-caret-down"></i>
+                                        <ul class="submenu">
+                                            <li><a href="#">News</a></li>
+                                            <li><a href="#">News Grid</a></li>
+                                            <li><a href="#">News Left Sidebar</a></li>
+                                            <li><a href="#">News Right Sidebar</a></li>
+                                            <li><a href="#">News Details</a></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li><a href="#">Pages <i class="fa fa-caret-down"></i>
+                                        <ul class="submenu">
+                                            <li><a href="#">Pages-1</a></li>
+                                            <li><a href="#">Pages-2</a></li>
+                                            <li><a href="#">Pages-3</a></li>
+                                            <li><a href="#">Pages-4</a></li>
+                                            <li><a href="#">Pages-5</a></li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="head2-col3">
+                        <div class="boxes">
+                            <div class="sub-box">
+                                <a onclick="find()"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                            <input type="text" class="serch" name="search" id="search" placeholder="Search Here">
+                            <div class="sub-box">
+                                <a href="#"><i class="fa-solid fa-user"></i></a>
+                            </div>
+                            <div class="sub-box">
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="poster">
+            <div class="poster-main main">
+                <div class="poster-text">
+                    <div class="text1">
+                        <i class="fa-solid fa-house-chimney"></i>Real Estate Agency
+                    </div>
+                    <div class="heading">
+                        Find Your Dream <br />
+                        House By Us
+                    </div>
+                    <div class="text3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, sed
+                        iure eaque quas, aliquid beatae
+                    </div>
+                    <div class="text4">
+                        <div class="sub-text1">
+                            <a href="#">Make An Enquiry</a>
+
+                        </div>
+                        <div class="sub-text2">
+                            <a href="#"><i class="fa-solid fa-circle-play fa-3x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="poster-img">
+                    <img src="images/house.jpg" alt="image" width="100%" />
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="aboutus">
+            <div class="aboutus-main main">
+                <div class="abt-img">
+                    <img src="images/aboutus.jpg" alt="About Us Img" width="100%" />
+                </div>
+                <div class="abt-text">
+                    <div class="abt-text1">
+                        <span>About Us</span>
+                    </div>
+                    <div class="heading">
+                        The Leading Real Estate Rental Marketplace
+                        <!-- <h1>The Leading Real Estate Rental Marketplace<span>.</span></h1> -->
+                    </div>
+                    <div class="abt-text3">
+                        <p>
+                            Over 39,000 people work for us in more than 70 countries all over
+                            the This breadth of global coverage, combined with specialist
+                            services
+                        </p>
+                    </div>
+                    <div class="abt-icon">
+                        <div class="abt-icons">
+                            <div>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-house-user"></i>
+                                        <b>Smart Home Design</b>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-mountain"></i>
+                                        <b>Beautiful Scene Around</b>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-shield-heart"></i>
+                                        <b>Exceptional Lifestyle</b>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-lock"></i>
+                                        <b>Complete 24/7 Security</b>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="abt-text4">
+                        "Enimad minim veniam quis nostrud exercitation llamco laboris. Lorem
+                        ipsum dolor sit amet"
+                    </div>
+
+                    <div class="abt-btn">
+                        <a onclick="show()">Our Services</a>
+                    </div>
+
+                    <div class="abt-text4 hide" id="para">
+                        "Enimad minim veniam quis nostrud exercitation llamco laboris. Lorem
+                        ipsum dolor sit amet"
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="logos">
+            <div class="logo-main main">
+                <div class="logo1">
+                    <i class="fa-solid fa-chart-area fa-3x"></i>
+                    <h1>
+                        <span class="count" id="count">560</span><span>+</span>
+                    </h1>
+                    <p>Total Area Sq</p>
+                </div>
+                <div class="logo1">
+                    <i class="fa-solid fa-building fa-3x"></i>
+                    <h1>
+                        <span class="count" id="count">197</span><span>K+</span>
+                    </h1>
+                    <p>Appartment Sold</p>
+                </div>
+                <div class="logo1">
+                    <i class="fa-solid fa-person-digging fa-3x"></i>
+                    <h1>
+                        <span class="count" id="count">268</span><span>K+</span>
+                    </h1>
+                    <p>Total Constructions</p>
+                </div>
+                <div class="logo1">
+                    <i class="fa-solid fa-couch fa-3x"></i>
+                    <h1>
+                        <span class="count" id="count">340</span><span>+</span>
+                    </h1>
+                    <p>Apartio Rooms</p>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="details">
+            <div class="details-main main">
+                <div class="det-text">
+                    <div class="det-text1">
+                        <span>About Us</span>
+                    </div>
+                    <div class="heading">
+                        Today Sells Property
+                    </div>
+                    <div class="det-text3">
+                        <p>
+                            Houzez allow you to design unlimited panels and real estate custom
+                            forms to capture leads and keep record of all information
+                        </p>
+                    </div>
+                    <div class="det-list">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-minus"></i>
+                                Live Music Concert Luviana
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-minus"></i>
+                                Our SecretIsland Boat Tour is Just for You
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-minus"></i>
+                                Live Music Cocerts at Luviana
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-minus"></i>
+                                Live Music Cocerts at Luviana
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="det-icons">
+                        <ul>
+                            <li class="border">
+                                3
+                                <i class="fa-solid fa-bed"></i>
+                                <p>Bedroom</p>
+                            </li>
+                            <li class="border">
+                                2
+                                <i class="fa-solid fa-bath"></i>
+                                <p>Bathrooms</p>
+                            </li>
+                            <li class="border">
+                                2
+                                <i class="fa-solid fa-car"></i>
+                                <p>Car Parking</p>
+                            </li>
+                            <li>
+                                3450
+                                <i class="fa-solid fa-vector-square"></i>
+                                <p>square ft</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="det-image">
+                        <ul>
+                            <li>
+                                <img src="images/detimg1.jpg" alt="img1" width="100%" height="120" />
+                            </li>
+                            <li>
+                                <img src="images/detimg2.jpg" alt="img1" width="100%" height="120" />
+                            </li>
+                            <li>
+                                <img src="images/detimg3.jpg" alt="img1" width="100%" height="120" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="det-poster">
+                    <img src="images/images3.png" alt="Images Here" width="100%" />
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="ourfocus">
+            <div class="ourfocus-main main">
+                <div class="our-service">
+                    <span>Our Services</span>
+                </div>
+                <div class="heading">
+                    Our Main Focus
+                </div>
+                <div class="our-boxes">
+                    <div class="our-box">
+                        <div class="our-buy">
+                            <div class="our-text1">
+                                <i class="fa-solid fa-house-chimney fa-3x"></i>
+                            </div>
+                            <div class="our-text2">
+                                <h1>Buy a Home</h1>
+                            </div>
+                            <div class="our-text3">
+                                <p>
+                                    over 1 million+ homes for sale available on the website, we
+                                    can match you with a house you will want to call home.
+                                </p>
+                            </div>
+                            <div class="our-text4">
+                                <a href="#">Find a Home <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our-box">
+                        <div class="our-rent">
+                            <div class="our-text1">
+                                <i class="fa-solid fa-house-flag fa-3x"></i></i>
+                            </div>
+                            <div class="our-text2">
+                                <h1>Rent a House</h1>
+                            </div>
+                            <div class="our-text3">
+                                <p>
+                                    over 1 million+ homes for sale available on the website, we
+                                    can match you with a house you will want to call home.
+                                </p>
+                            </div>
+                            <div class="our-text4">
+                                <a href="#">Find a Home <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our-box">
+                        <div class="our-sell">
+                            <div class="our-text1">
+                                <i class="fa-solid fa-handshake fa-3x"></i></i>
+                            </div>
+                            <div class="our-text2">
+                                <h1>Sell a Home</h1>
+                            </div>
+                            <div class="our-text3">
+                                <p>
+                                    over 1 million+ homes for sale available on the website, we
+                                    can match you with a house you will want to call home.
+                                </p>
+                            </div>
+                            <div class="our-text4">
+                                <a href="#">Find a Home <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="listing">
+            <div class="listing-main main">
+                <div class="list-text1">
+                    <span>Properties</span>
+                </div>
+                <div class="list-text2 heading">
+                    Featured Listings
+                </div>
+                <div class="list-property">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="list-img">
+                                    <div class="list-images">
+                                        <img src="images/appartment1.jpg" alt="appartment1" width="100%">
+                                    </div>
+                                    <div class="list-img-text">
+                                        <div class="list-img-txt1">
+                                            <h4>$34,900/Month</h4>
+                                        </div>
+                                        <div class="list-img-text2">
+                                            <h2>New Appartment Nice View</h2>
+                                        </div>
+                                        <div class="list-img-text3">
+                                            <p>Lorem ipsum dolor sit amet consectetur
+                                                <br> adipisicing elit. Ratione iure neque <br> cumque nesciunt earum
+                                                optio nam,
+                                            </p>
+                                        </div>
+                                        <div class="list-img-text4">
+                                            <div class="det-icons">
+                                                <ul>
+                                                    <li class="border">
+                                                        3
+                                                        <i class="fa-solid fa-bed"></i>
+                                                        <p>Bedroom</p>
+                                                    </li>
+                                                    <li class="border">
+                                                        2
+                                                        <i class="fa-solid fa-bath"></i>
+                                                        <p>Bathrooms</p>
+                                                    </li>
+                                                    <li>
+                                                        3450
+                                                        <i class="fa-solid fa-vector-square"></i>
+                                                        <p>square ft</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="list-img-text5">
+                                            <div class="agent">
+                                                <div class="agent-img">
+                                                    <img src="images/person.jpg" alt="person" width="100%">
+                                                </div>
+                                                <div class="agent-text">
+                                                    <h4>William Seklo</h4>
+                                                    <h6>Estate Agent</h6>
+                                                </div>
+                                            </div>
+                                            <div class="agnt-logo">
+                                                <div class="agnt-boxes">
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-arrows-left-right"></i>
+                                                    </div>
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-heart"></i>
+                                                    </div>
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-circle-plus"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="list-img">
+                                    <div class="list-images">
+                                        <img src="images/appartment2.jpg" alt="appartment2" width="100%">
+                                    </div>
+                                    <div class="list-img-text">
+                                        <div class="list-img-txt1">
+                                            <h4>$34,900/Month</h4>
+                                        </div>
+                                        <div class="list-img-text2">
+                                            <h2>Modern Apartments</h2>
+                                        </div>
+                                        <div class="list-img-text3">
+                                            <p>Lorem ipsum dolor sit amet consectetur
+                                                <br> adipisicing elit. Ratione iure neque <br> cumque nesciunt earum
+                                                optio nam,
+                                            </p>
+                                        </div>
+                                        <div class="list-img-text4">
+                                            <div class="det-icons">
+                                                <ul>
+                                                    <li class="border">
+                                                        3
+                                                        <i class="fa-solid fa-bed"></i>
+                                                        <p>Bedroom</p>
+                                                    </li>
+                                                    <li class="border">
+                                                        2
+                                                        <i class="fa-solid fa-bath"></i>
+                                                        <p>Bathrooms</p>
+                                                    </li>
+                                                    <li>
+                                                        3450
+                                                        <i class="fa-solid fa-vector-square"></i>
+                                                        <p>square ft</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="list-img-text5">
+                                            <div class="agent">
+                                                <div class="agent-img">
+                                                    <img src="images/person.jpg" alt="person" width="100%">
+                                                </div>
+                                                <div class="agent-text">
+                                                    <h4>William Seklo</h4>
+                                                    <h6>Estate Agent</h6>
+                                                </div>
+                                            </div>
+                                            <div class="agnt-logo">
+                                                <div class="agnt-boxes">
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-arrows-left-right"></i>
+                                                    </div>
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-heart"></i>
+                                                    </div>
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-circle-plus"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="list-img">
+                                    <div class="list-images">
+                                        <img src="images/appartment3.jpg" alt="appartment3" width="100%">
+                                    </div>
+                                    <div class="list-img-text">
+                                        <div class="list-img-txt1">
+                                            <h4>$34,900/Month</h4>
+                                        </div>
+                                        <div class="list-img-text2">
+                                            <h2>Comforable Apartment</h2>
+                                        </div>
+                                        <div class="list-img-text3">
+                                            <p>Lorem ipsum dolor sit amet consectetur
+                                                <br> adipisicing elit. Ratione iure neque <br> cumque nesciunt earum
+                                                optio nam,
+                                            </p>
+                                        </div>
+                                        <div class="list-img-text4">
+                                            <div class="det-icons">
+                                                <ul>
+                                                    <li class="border">
+                                                        3
+                                                        <i class="fa-solid fa-bed"></i>
+                                                        <p>Bedroom</p>
+                                                    </li>
+                                                    <li class="border">
+                                                        2
+                                                        <i class="fa-solid fa-bath"></i>
+                                                        <p>Bathrooms</p>
+                                                    </li>
+                                                    <li>
+                                                        3450
+                                                        <i class="fa-solid fa-vector-square"></i>
+                                                        <p>square ft</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="list-img-text5">
+                                            <div class="agent">
+                                                <div class="agent-img">
+                                                    <img src="images/person.jpg" alt="person" width="100%">
+                                                </div>
+                                                <div class="agent-text">
+                                                    <h4>William Seklo</h4>
+                                                    <h6>Estate Agent</h6>
+                                                </div>
+                                            </div>
+                                            <div class="agnt-logo">
+                                                <div class="agnt-boxes">
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-arrows-left-right"></i>
+                                                    </div>
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-heart"></i>
+                                                    </div>
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-circle-plus"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="list-img">
+                                    <div class="list-images">
+                                        <img src="images/appartment2.jpg" alt="appartment2" width="100%">
+                                    </div>
+                                    <div class="list-img-text">
+                                        <div class="list-img-txt1">
+                                            <h4>$34,900/Month</h4>
+                                        </div>
+                                        <div class="list-img-text2">
+                                            <h2>Modern Apartments</h2>
+                                        </div>
+                                        <div class="list-img-text3">
+                                            <p>Lorem ipsum dolor sit amet consectetur
+                                                <br> adipisicing elit. Ratione iure neque <br> cumque nesciunt earum
+                                                optio nam,
+                                            </p>
+                                        </div>
+                                        <div class="list-img-text4">
+                                            <div class="det-icons">
+                                                <ul>
+                                                    <li class="border">
+                                                        3
+                                                        <i class="fa-solid fa-bed"></i>
+                                                        <p>Bedroom</p>
+                                                    </li>
+                                                    <li class="border">
+                                                        2
+                                                        <i class="fa-solid fa-bath"></i>
+                                                        <p>Bathrooms</p>
+                                                    </li>
+                                                    <li>
+                                                        3450
+                                                        <i class="fa-solid fa-vector-square"></i>
+                                                        <p>square ft</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="list-img-text5">
+                                            <div class="agent">
+                                                <div class="agent-img">
+                                                    <img src="images/person.jpg" alt="person" width="100%">
+                                                </div>
+                                                <div class="agent-text">
+                                                    <h4>William Seklo</h4>
+                                                    <h6>Estate Agent</h6>
+                                                </div>
+                                            </div>
+                                            <div class="agnt-logo">
+                                                <div class="agnt-boxes">
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-arrows-left-right"></i>
+                                                    </div>
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-heart"></i>
+                                                    </div>
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-circle-plus"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="list-img">
+                                    <div class="list-images">
+                                        <img src="images/appartment1.jpg" alt="appartment1" width="100%">
+                                    </div>
+                                    <div class="list-img-text">
+                                        <div class="list-img-txt1">
+                                            <h4>$34,900/Month</h4>
+                                        </div>
+                                        <div class="list-img-text2">
+                                            <h2>New Appartment Nice View</h2>
+                                        </div>
+                                        <div class="list-img-text3">
+                                            <p>Lorem ipsum dolor sit amet consectetur
+                                                <br> adipisicing elit. Ratione iure neque <br> cumque nesciunt earum
+                                                optio nam,
+                                            </p>
+                                        </div>
+                                        <div class="list-img-text4">
+                                            <div class="det-icons">
+                                                <ul>
+                                                    <li class="border">
+                                                        3
+                                                        <i class="fa-solid fa-bed"></i>
+                                                        <p>Bedroom</p>
+                                                    </li>
+                                                    <li class="border">
+                                                        2
+                                                        <i class="fa-solid fa-bath"></i>
+                                                        <p>Bathrooms</p>
+                                                    </li>
+                                                    <li>
+                                                        3450
+                                                        <i class="fa-solid fa-vector-square"></i>
+                                                        <p>square ft</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="list-img-text5">
+                                            <div class="agent">
+                                                <div class="agent-img">
+                                                    <img src="images/person.jpg" alt="person" width="100%">
+                                                </div>
+                                                <div class="agent-text">
+                                                    <h4>William Seklo</h4>
+                                                    <h6>Estate Agent</h6>
+                                                </div>
+                                            </div>
+                                            <div class="agnt-logo">
+                                                <div class="agnt-boxes">
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-arrows-left-right"></i>
+                                                    </div>
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-heart"></i>
+                                                    </div>
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-circle-plus"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="list-img">
+                                    <div class="list-images">
+                                        <img src="images/appartment3.jpg" alt="appartment3" width="100%">
+                                    </div>
+                                    <div class="list-img-text">
+                                        <div class="list-img-txt1">
+                                            <h4>$34,900/Month</h4>
+                                        </div>
+                                        <div class="list-img-text2">
+                                            <h2>Comforable Apartment</h2>
+                                        </div>
+                                        <div class="list-img-text3">
+                                            <p>Lorem ipsum dolor sit amet consectetur
+                                                <br> adipisicing elit. Ratione iure neque <br> cumque nesciunt earum
+                                                optio nam,
+                                            </p>
+                                        </div>
+                                        <div class="list-img-text4">
+                                            <div class="det-icons">
+                                                <ul>
+                                                    <li class="border">
+                                                        3
+                                                        <i class="fa-solid fa-bed"></i>
+                                                        <p>Bedroom</p>
+                                                    </li>
+                                                    <li class="border">
+                                                        2
+                                                        <i class="fa-solid fa-bath"></i>
+                                                        <p>Bathrooms</p>
+                                                    </li>
+                                                    <li>
+                                                        3450
+                                                        <i class="fa-solid fa-vector-square"></i>
+                                                        <p>square ft</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="list-img-text5">
+                                            <div class="agent">
+                                                <div class="agent-img">
+                                                    <img src="images/person.jpg" alt="person" width="100%">
+                                                </div>
+                                                <div class="agent-text">
+                                                    <h4>William Seklo</h4>
+                                                    <h6>Estate Agent</h6>
+                                                </div>
+                                            </div>
+                                            <div class="agnt-logo">
+                                                <div class="agnt-boxes">
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-arrows-left-right"></i>
+                                                    </div>
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-heart"></i>
+                                                    </div>
+                                                    <div class="agnt-box">
+                                                        <i class="fa-solid fa-circle-plus"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination pagi"></div>
+                    </div>
+                    <div class="swiper-button-next swipbtn"></div>
+                    <div class="swiper-button-prev swipbtn"></div>
+
+                    <!-- <div class="list-img">
+                        <img src="images/appartment1.jpg" alt="appartment1" width="100%">
+                        <div class="list-img-text">
+                            <div class="list-img-txt1">
+                                <h4>$34,900/Month</h4>
+                            </div>
+                            <div class="list-img-text2">
+                                <h2>New Appartment Nice View</h2>
+                            </div>
+                            <div class="list-img-text3">
+                                <p>Lorem ipsum dolor sit amet consectetur
+                                    <br> adipisicing elit. Ratione iure neque <br> cumque nesciunt earum optio nam,
+                                </p>
+                            </div>
+                            <div class="list-img-text4">
+                                <div class="det-icons">
+                                    <ul>
+                                        <li class="border">
+                                            3
+                                            <i class="fa-solid fa-bed"></i>
+                                            <p>Bedroom</p>
+                                        </li>
+                                        <li class="border">
+                                            2
+                                            <i class="fa-solid fa-bath"></i>
+                                            <p>Bathrooms</p>
+                                        </li>
+                                        <li>
+                                            3450
+                                            <i class="fa-solid fa-vector-square"></i>
+                                            <p>square ft</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="list-img-text5">
+                                <div class="agent">
+                                    <div class="agent-img">
+                                        <img src="images/person.jpg" alt="person" width="100%">
+                                    </div>
+                                    <div class="agent-text">
+                                        <h4>William Seklo</h4>
+                                        <h6>Estate Agent</h6>
+                                    </div>
+                                </div>
+                                <div class="agnt-logo">
+                                    <div class="agnt-boxes">
+                                        <div class="agnt-box">
+                                            <i class="fa-solid fa-arrows-left-right"></i>
+                                        </div>
+                                        <div class="agnt-box">
+                                            <i class="fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="agnt-box">
+                                            <i class="fa-solid fa-circle-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="list-img">
+                        <img src="images/appartment2.jpg" alt="appartment2" width="100%">
+                        <div class="list-img-text">
+                            <div class="list-img-txt1">
+                                <h4>$34,900/Month</h4>
+                            </div>
+                            <div class="list-img-text2">
+                                <h2>Modern Apartments</h2>
+                            </div>
+                            <div class="list-img-text3">
+                                <p>Lorem ipsum dolor sit amet consectetur
+                                    <br> adipisicing elit. Ratione iure neque <br> cumque nesciunt earum optio nam,
+                                </p>
+                            </div>
+                            <div class="list-img-text4">
+                                <div class="det-icons">
+                                    <ul>
+                                        <li class="border">
+                                            3
+                                            <i class="fa-solid fa-bed"></i>
+                                            <p>Bedroom</p>
+                                        </li>
+                                        <li class="border">
+                                            2
+                                            <i class="fa-solid fa-bath"></i>
+                                            <p>Bathrooms</p>
+                                        </li>
+                                        <li>
+                                            3450
+                                            <i class="fa-solid fa-vector-square"></i>
+                                            <p>square ft</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="list-img-text5">
+                                <div class="agent">
+                                    <div class="agent-img">
+                                        <img src="images/person.jpg" alt="person" width="100%">
+                                    </div>
+                                    <div class="agent-text">
+                                        <h4>William Seklo</h4>
+                                        <h6>Estate Agent</h6>
+                                    </div>
+                                </div>
+                                <div class="agnt-logo">
+                                    <div class="agnt-boxes">
+                                        <div class="agnt-box">
+                                            <i class="fa-solid fa-arrows-left-right"></i>
+                                        </div>
+                                        <div class="agnt-box">
+                                            <i class="fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="agnt-box">
+                                            <i class="fa-solid fa-circle-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="list-img">
+                        <img src="images/appartment3.jpg" alt="appartment3" width="100%">
+                        <div class="list-img-text">
+                            <div class="list-img-txt1">
+                                <h4>$34,900/Month</h4>
+                            </div>
+                            <div class="list-img-text2">
+                                <h2>Comforable Apartment</h2>
+                            </div>
+                            <div class="list-img-text3">
+                                <p>Lorem ipsum dolor sit amet consectetur
+                                    <br> adipisicing elit. Ratione iure neque <br> cumque nesciunt earum optio nam,
+                                </p>
+                            </div>
+                            <div class="list-img-text4">
+                                <div class="det-icons">
+                                    <ul>
+                                        <li class="border">
+                                            3
+                                            <i class="fa-solid fa-bed"></i>
+                                            <p>Bedroom</p>
+                                        </li>
+                                        <li class="border">
+                                            2
+                                            <i class="fa-solid fa-bath"></i>
+                                            <p>Bathrooms</p>
+                                        </li>
+                                        <li>
+                                            3450
+                                            <i class="fa-solid fa-vector-square"></i>
+                                            <p>square ft</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="list-img-text5">
+                                <div class="agent">
+                                    <div class="agent-img">
+                                        <img src="images/person.jpg" alt="person" width="100%">
+                                    </div>
+                                    <div class="agent-text">
+                                        <h4>William Seklo</h4>
+                                        <h6>Estate Agent</h6>
+                                    </div>
+                                </div>
+                                <div class="agnt-logo">
+                                    <div class="agnt-boxes">
+                                        <div class="agnt-box">
+                                            <i class="fa-solid fa-arrows-left-right"></i>
+                                        </div>
+                                        <div class="agnt-box">
+                                            <i class="fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="agnt-box">
+                                            <i class="fa-solid fa-circle-plus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="sketch">
+            <div class="sketch-main main">
+                <div class="sketch-text1">
+                    <span>Apartment Sketch</span>
+                </div>
+                <div class="sketch-text2 heading">
+                    Apartments Plan
+                </div>
+                <div class="sketch-text3">
+                    <a class="sketch-link" onclick="opentab(event, 'studio')">The Studio</a>
+                    <a class="sketch-link" onclick="opentab(event, 'deluxe')" id="default" l̥ō>Deluxe Portion</a>
+                    <a class="sketch-link" onclick="opentab(event, 'pent')">Penthouse</a>
+                    <a class="sketch-link" onclick="opentab(event, 'topg')">Top Garden</a>
+                    <a class="sketch-link" onclick="opentab(event, 'dh')">Double Height</a>
+                </div>
+                <!-- With UL and LI Start-->
+                <!-- <div class="sketch-text3">
+                    <ul>
+                        <li>
+                            <a class="sketch-link" onclick="opencity(event, 'studio')">The Studio</a>
+                        </li>
+                        <li>
+                            <a class="sketch-link" onclick="opencity(event, 'deluxe')" id="default">Deluxe Portion</a>
+                        </li>
+                        <li>
+                            <a class="sketch-link" onclick="opencity(event, 'pent')">Penthouse</a>
+                        </li>
+                        <li>
+                            <a class="sketch-link" onclick="opencity(event, 'topg')">Top Garden</a>
+                        </li>
+                        <li>
+                            <a class="sketch-link" onclick="opencity(event, 'dh')">Double Height</a>
+                        </li>
+                    </ul>
+                </div> -->
+                <div class="sketch-grid">
+                    <div class="sketch-details" id="deluxe">
+                        <div class="sketch-det1">
+                            <h1>Deluxe Portion</h1>
+                        </div>
+                        <div class="sketch-det2">
+                            <p>Enimad minim veniam quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet
+                                cons aetetur adipisicing elit sedo eiusmod tempor.Incididunt labore et dolore magna
+                                aliqua. sed ayd minim veniam.</p>
+                        </div>
+                        <div class="sketch-det3">
+                            <div class="sketch-list">
+                                <ul>
+                                    <li>
+                                        <label>Total Area</label>
+                                        <span>2800 Sq.Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Bedroom</label>
+                                        <span>150 Sq. Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Bathroom</label>
+                                        <span>45 Sq. Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Balcony/Pets</label>
+                                        <span>Allowed</span>
+                                    </li>
+                                    <li>
+                                        <label>Lounge</label>
+                                        <span>650 Sq. Ft</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sketch-details" id="studio">
+                        <div class="sketch-det1">
+                            <h1>Studio Portion</h1>
+                        </div>
+                        <div class="sketch-det2">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quibusdam
+                                dignissimos soluta? Odit quidem molestiae enim nobis consequatur soluta dignissimos?</p>
+                        </div>
+                        <div class="sketch-det3">
+                            <div class="sketch-list">
+                                <ul>
+                                    <li>
+                                        <label>Total Area</label>
+                                        <span>2000 Sq.Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Bedroom</label>
+                                        <span>100 Sq. Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Bathroom</label>
+                                        <span>95 Sq. Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Balcony/Pets</label>
+                                        <span>Not-Allowed</span>
+                                    </li>
+                                    <li>
+                                        <label>Lounge</label>
+                                        <span>350 Sq. Ft</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sketch-details" id="pent">
+                        <div class="sketch-det1">
+                            <h1>Penthouse</h1>
+                        </div>
+                        <div class="sketch-det2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, reprehenderit. Fugit
+                                assumenda facere earum, officia nostrum quisquam dolorum ipsum vero totam, sapiente
+                                ipsam dolor, temporibus eaque. Magni ratione odio quas!</p>
+                        </div>
+                        <div class="sketch-det3">
+                            <div class="sketch-list">
+                                <ul>
+                                    <li>
+                                        <label>Total Area</label>
+                                        <span>1200 Sq.Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Bedroom</label>
+                                        <span>180 Sq. Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Bathroom</label>
+                                        <span>80 Sq. Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Balcony/Pets</label>
+                                        <span>Allowed</span>
+                                    </li>
+                                    <li>
+                                        <label>Lounge</label>
+                                        <span>950 Sq. Ft</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sketch-details" id="topg">
+                        <div class="sketch-det1">
+                            <h1>Top Garden</h1>
+                        </div>
+                        <div class="sketch-det2">
+                            <p>Enimad minim veniam quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet
+                                cons aetetur adipisicing elit sedo eiusmod tempor.Incididunt labore et dolore magna
+                                aliqua. sed ayd minim veniam.
+                            </p>
+                        </div>
+                        <div class="sketch-det3">
+                            <div class="sketch-list">
+                                <ul>
+                                    <li>
+                                        <label>Total Area</label>
+                                        <span>2800 Sq.Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Bedroom</label>
+                                        <span>150 Sq. Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Bathroom</label>
+                                        <span>45 Sq. Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Balcony/Pets</label>
+                                        <span>Allowed</span>
+                                    </li>
+                                    <li>
+                                        <label>Lounge</label>
+                                        <span>650 Sq. Ft</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sketch-details" id="dh">
+                        <div class="sketch-det1">
+                            <h1>Double Height</h1>
+                        </div>
+                        <div class="sketch-det2">
+                            <p>Enimad minim veniam quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet
+                                cons aetetur adipisicing elit sedo eiusmod tempor.Incididunt labore et dolore magna
+                                aliqua. sed ayd minim veniam.</p>
+                        </div>
+                        <div class="sketch-det3">
+                            <div class="sketch-list">
+                                <ul>
+                                    <li>
+                                        <label>Total Area</label>
+                                        <span>2800 Sq.Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Bedroom</label>
+                                        <span>150 Sq. Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Bathroom</label>
+                                        <span>45 Sq. Ft</span>
+                                    </li>
+                                    <li>
+                                        <label>Balcony/Pets</label>
+                                        <span>Allowed</span>
+                                    </li>
+                                    <li>
+                                        <label>Lounge</label>
+                                        <span>650 Sq. Ft</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sketch-img">
+                        <img src="images/sketch1.png" alt="sketch" width="100%">
+                    </div>
+                </div>
+                <!-- With UL and LI Ends-->
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="backgroundimg">
+            <div class="backgroundimg-main">
+                <div class="backimg">
+                    <div class="backlogo">
+                        <a href="https://www.youtube.com/watch?v=UwE8_Y7sQno" target="_blank">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="aminities">
+            <div class="aminities-main main">
+                <div class="ami-text1">
+                    <span>Our Aminities</span>
+                </div>
+                <div class="ami-text2 heading">
+                    Building Aminities
+                </div>
+                <div class="ami-mainrow">
+                    <div class="ami-boxes">
+                        <div class="ami-mainbox">
+                            <div class="ami-subicon">
+                                <i class="fa-solid fa-car fa-2x"></i>
+                            </div>
+                            <div class="ami-subtext">
+                                Parking Space
+                            </div>
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                    <div class="ami-boxes">
+                        <div class="ami-mainbox">
+                            <div class="ami-subicon">
+                                <i class="fa-solid fa-water-ladder fa-2x"></i>
+                            </div>
+                            <div class="ami-subtext">
+                                Swimming Pool
+                            </div>
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                    <div class="ami-boxes">
+                        <div class="ami-mainbox">
+                            <div class="ami-subicon">
+                                <i class="fa-solid fa-shield-halved fa-2x"></i>
+                            </div>
+                            <div class="ami-subtext">
+                                Private Security
+                            </div>
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                    <div class="ami-boxes">
+                        <div class="ami-mainbox">
+                            <div class="ami-subicon">
+                                <i class="fa-solid fa-briefcase-medical fa-2x"></i>
+                            </div>
+                            <div class="ami-subtext">
+                                Medical Center
+                            </div>
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                    <div class="ami-boxes">
+                        <div class="ami-mainbox">
+                            <div class="ami-subicon">
+                                <i class="fa-solid fa-book-bookmark fa-2x"></i>
+                            </div>
+                            <div class="ami-subtext">
+                                Library Area
+                            </div>
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                    <div class="ami-boxes">
+                        <div class="ami-mainbox">
+                            <div class="ami-subicon">
+                                <i class="fa-solid fa-bed fa-2x"></i>
+                            </div>
+                            <div class="ami-subtext">
+                                King Size Beds
+                            </div>
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                    <div class="ami-boxes">
+                        <div class="ami-mainbox">
+                            <div class="ami-subicon">
+                                <i class="fa-solid fa-house-signal fa-2x"></i>
+                            </div>
+                            <div class="ami-subtext">
+                                Smart Homes
+                            </div>
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                    <div class="ami-boxes">
+                        <div class="ami-mainbox">
+                            <div class="ami-subicon">
+                                <i class="fa-solid fa-table-tennis-paddle-ball fa-2x"></i>
+                            </div>
+                            <div class="ami-subtext">
+                                Kid's Playland
+                            </div>
+                        </div>
+                        <span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="testimonial">
+            <div class="testimonial-main">
+                <div class="testimonial-content main">
+                    <div class="testi-head">
+                        <span>Out Testimonial</span>
+                    </div>
+                    <div class="testi-title heading">
+                        Clients Feedback
+                    </div>
+                    <!-- Without Swiper Properties and JS  -->
+                    <!-- <div class="testi-row">
+                        <div class="testi-box">
+                            <div class="testi-para">
+                                <span><i class="fa-solid fa-quote-left"></i> Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit. Quaerat quia est illo excepturi illum voluptatum ipsam voluptatem
+                                    minus obcaecati delectus!
+                                </span>
+                            </div>
+                            <div class="testi-agent">
+                                <div class="testi-img">
+                                    <img src="images/testi-agent1.jpg" alt="Testimonial Agent-1" width="100%">
+                                </div>
+                                <div class="testi-agntpara">
+                                    <h3>Jacob William</h3>
+                                    <label>SELLING AGENT</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testi-box">
+                            <div class="testi-para">
+                                <span><i class="fa-solid fa-quote-left"></i> LLorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit. Quaerat quia est illo excepturi illum voluptatum ipsam voluptatem
+                                    minus obcaecati delectus!</span>
+                            </div>
+                            <div class="testi-agent">
+                                <div class="testi-img">
+                                    <img src="images/testi-agent2.jpg" alt="Testimonial Agent-2" width="100%">
+                                </div>
+                                <div class="testi-agntpara">
+                                    <h3>Kelian Anderson</h3>
+                                    <label>SELLING AGENT</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testi-box">
+                            <div class="testi-para">
+                                <span><i class="fa-solid fa-quote-left"></i> Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit. Quaerat quia est illo excepturi illum voluptatum ipsam voluptatem
+                                    minus obcaecati delectus!</span>
+                            </div>
+                            <div class="testi-agent">
+                                <div class="testi-img">
+                                    <img src="images/testi-agent3.jpg" alt="Testimonial Agent-3" width="100%">
+                                </div>
+                                <div class="testi-agntpara">
+                                    <h3>Adam Joseph</h3>
+                                    <label>SELLING AGENT</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Without Swiper Properties and JS 
+
+                    <!-- With Swiper Property and JS Starts Here-->
+                    <div class="testi-row">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testi-box">
+                                        <div class="testi-para">
+                                            <span><i class="fa-solid fa-quote-left"></i> LLorem, ipsum dolor sit amet
+                                                consectetur
+                                                adipisicing elit. Quaerat quia est illo excepturi illum voluptatum ipsam
+                                                voluptatem
+                                                minus obcaecati delectus!</span>
+                                        </div>
+                                        <div class="testi-agent">
+                                            <div class="testi-img">
+                                                <img src="images/testi-agent1.jpg" alt="Testimonial Agent-1"
+                                                    width="100%">
+                                            </div>
+                                            <div class="testi-agntpara">
+                                                <h3>Jacob William</h3>
+                                                <label>SELLING AGENT</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testi-box">
+                                        <div class="testi-para">
+                                            <span><i class="fa-solid fa-quote-left"></i> LLorem, ipsum dolor sit amet
+                                                consectetur
+                                                adipisicing elit. Quaerat quia est illo excepturi illum voluptatum ipsam
+                                                voluptatem
+                                                minus obcaecati delectus!</span>
+                                        </div>
+                                        <div class="testi-agent">
+                                            <div class="testi-img">
+                                                <img src="images/testi-agent2.jpg" alt="Testimonial Agent-2"
+                                                    width="100%">
+                                            </div>
+                                            <div class="testi-agntpara">
+                                                <h3>Kelian Anderson</h3>
+                                                <label>SELLING AGENT</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testi-box">
+                                        <div class="testi-para">
+                                            <span><i class="fa-solid fa-quote-left"></i> LLorem, ipsum dolor sit amet
+                                                consectetur
+                                                adipisicing elit. Quaerat quia est illo excepturi illum voluptatum ipsam
+                                                voluptatem
+                                                minus obcaecati delectus!</span>
+                                        </div>
+                                        <div class="testi-agent">
+                                            <div class="testi-img">
+                                                <img src="images/testi-agent2.jpg" alt="Testimonial Agent-2"
+                                                    width="100%">
+                                            </div>
+                                            <div class="testi-agntpara">
+                                                <h3>Kelian Anderson</h3>
+                                                <label>SELLING AGENT</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testi-box">
+                                        <div class="testi-para">
+                                            <span><i class="fa-solid fa-quote-left"></i> LLorem, ipsum dolor sit amet
+                                                consectetur
+                                                adipisicing elit. Quaerat quia est illo excepturi illum voluptatum ipsam
+                                                voluptatem
+                                                minus obcaecati delectus!</span>
+                                        </div>
+                                        <div class="testi-agent">
+                                            <div class="testi-img">
+                                                <img src="images/testi-agent2.jpg" alt="Testimonial Agent-2"
+                                                    width="100%">
+                                            </div>
+                                            <div class="testi-agntpara">
+                                                <h3>Kelian Anderson</h3>
+                                                <label>SELLING AGENT</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testi-box">
+                                        <div class="testi-para">
+                                            <span><i class="fa-solid fa-quote-left"></i> Lorem, ipsum dolor sit amet
+                                                consectetur
+                                                adipisicing elit. Quaerat quia est illo excepturi illum voluptatum ipsam
+                                                voluptatem
+                                                minus obcaecati delectus!</span>
+                                        </div>
+                                        <div class="testi-agent">
+                                            <div class="testi-img">
+                                                <img src="images/testi-agent3.jpg" alt="Testimonial Agent-3"
+                                                    width="100%">
+                                            </div>
+                                            <div class="testi-agntpara">
+                                                <h3>Adam Joseph</h3>
+                                                <label>SELLING AGENT</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testi-box">
+                                        <div class="testi-para">
+                                            <span><i class="fa-solid fa-quote-left"></i> LLorem, ipsum dolor sit amet
+                                                consectetur
+                                                adipisicing elit. Quaerat quia est illo excepturi illum voluptatum ipsam
+                                                voluptatem
+                                                minus obcaecati delectus!</span>
+                                        </div>
+                                        <div class="testi-agent">
+                                            <div class="testi-img">
+                                                <img src="images/testi-agent1.jpg" alt="Testimonial Agent-1"
+                                                    width="100%">
+                                            </div>
+                                            <div class="testi-agntpara">
+                                                <h3>Jacob William</h3>
+                                                <label>SELLING AGENT</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="testi-box">
+                            <div class="testi-para">
+                                <span><i class="fa-solid fa-quote-left"></i> Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit. Quaerat quia est illo excepturi illum voluptatum ipsam voluptatem
+                                    minus obcaecati delectus!
+                                </span>
+                            </div>
+                            <div class="testi-agent">
+                                <div class="testi-img">
+                                    <img src="images/testi-agent1.jpg" alt="Testimonial Agent-1" width="100%">
+                                </div>
+                                <div class="testi-agntpara">
+                                    <h3>Jacob William</h3>
+                                    <label>SELLING AGENT</label>
+                                </div>
+                            </div>
+                        </div> -->
+                            <!-- <div class="testi-box">
+                                <div class="testi-para">
+                                    <span><i class="fa-solid fa-quote-left"></i> LLorem, ipsum dolor sit amet consectetur
+                                        adipisicing elit. Quaerat quia est illo excepturi illum voluptatum ipsam voluptatem
+                                        minus obcaecati delectus!</span>
+                                </div>
+                                <div class="testi-agent">
+                                    <div class="testi-img">
+                                        <img src="images/testi-agent2.jpg" alt="Testimonial Agent-2" width="100%">
+                                    </div>
+                                    <div class="testi-agntpara">
+                                        <h3>Kelian Anderson</h3>
+                                        <label>SELLING AGENT</label>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <div class="testi-box">
+                            <div class="testi-para">
+                                <span><i class="fa-solid fa-quote-left"></i> Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit. Quaerat quia est illo excepturi illum voluptatum ipsam voluptatem
+                                    minus obcaecati delectus!</span>
+                            </div>
+                            <div class="testi-agent">
+                                <div class="testi-img">
+                                    <img src="images/testi-agent3.jpg" alt="Testimonial Agent-3" width="100%">
+                                </div>
+                                <div class="testi-agntpara">
+                                    <h3>Adam Joseph</h3>
+                                    <label>SELLING AGENT</label>
+                                </div>
+                            </div>
+                        </div> -->
+                            <!-- <div class="testi-box">
+                                    <div class="testi-para">
+                                        <span><i class="fa-solid fa-quote-left"></i> Lorem, ipsum dolor sit amet consectetur
+                                            adipisicing elit. Quaerat quia est illo excepturi illum voluptatum ipsam voluptatem
+                                            minus obcaecati delectus!</span>
+                                    </div>
+                                    <div class="testi-agent">
+                                        <div class="testi-img">
+                                            <img src="images/testi-agent3.jpg" alt="Testimonial Agent-3" width="100%">
+                                        </div>
+                                        <div class="testi-agntpara">
+                                            <h3>Adam Joseph</h3>
+                                            <label>SELLING AGENT</label>
+                                        </div>
+                                    </div>
+                            </div> -->
+                        </div>
+                        <div class="swiper-button-next swipbtn"></div>
+                        <div class="swiper-button-prev swipbtn"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <!-- Swiper Property Ends Here  -->
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="news">
+            <div class="news-main main">
+                <div class="news-content">
+                    <div class="news-head">
+                        <span>News & Blogs</span>
+                    </div>
+                    <div class="news-title heading">
+                        Latest News Feeds
+                    </div>
+                    <div class="news-row">
+                        <div class="news-box">
+                            <div class="news-img">
+                                <img src="images/news1.jpg" alt="News-1" width="100%">
+                            </div>
+                            <div class="news-cont">
+                                <div class="news-text1">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa-solid fa-user"></i> by: Admin</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa-solid fa-tag"></i> Interior</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="news-text2">
+                                    <h3>The Most Inspiring Interior Design of 2021</h3>
+                                </div>
+                                <div class="news-text3">
+                                    <div class="news-date">
+                                        <i class="fa-solid fa-calendar-days"></i> June 23, 2021
+                                    </div>
+                                    <div class="news-read">
+                                        <a href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-box">
+                            <div class="news-img">
+                                <img src="images/news2.jpg" alt="News-2" width="100%">
+                            </div>
+                            <div class="news-cont">
+                                <div class="news-text1">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa-solid fa-user"></i> by: Admin</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa-solid fa-tag"></i> Interior</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="news-text2">
+                                    <h3>10 Brilliant Ways to Decorate Your Home</h3>
+                                </div>
+                                <div class="news-text3">
+                                    <div class="news-date">
+                                        <i class="fa-solid fa-calendar-days"></i> July 23, 2021
+                                    </div>
+                                    <div class="news-read">
+                                        <a href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-box">
+                            <div class="news-img">
+                                <img src="images/news3.jpg" alt="News-3" width="100%">
+                            </div>
+                            <div class="news-cont">
+                                <div class="news-text1">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa-solid fa-user"></i> by: Admin</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa-solid fa-tag"></i> Interior</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="news-text2">
+                                    <h3>Recent Commercial Real Estate Transaction </h3>
+                                </div>
+                                <div class="news-text3">
+                                    <div class="news-date">
+                                        <i class="fa-solid fa-calendar-days"></i> Aug 23, 2021
+                                    </div>
+                                    <div class="news-read">
+                                        <a href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="explore">
+            <div class="explore-main main">
+                <div class="explore-content">
+                    <div class="exp-head">
+                        <h1>Looking for a dream home ?</h1>
+                        <p>We can help you realize your dream of a new home?</p>
+                    </div>
+                    <div class="exp-btn">
+                        <span>Explore Properties <i class="fa-solid fa-arrow-right-long"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="footer">
+            <div class="footer-main">
+                <div class="footer-content">
+                    <div class="footer-col1">
+                        <div class="main1-text1">
+                            <!-- <i class="fa-solid fa-home"></i><h2>Quarter</h2> -->
+                            <i class="fa-solid fa-home fa-2x"></i>
+                            <span>Quarter</span>
+                        </div>
+                        <div class="main1-text2">
+                            <p>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is
+                                dummy
+                                text of the printing.</p>
+                        </div>
+                        <div class="main1-text3">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i><span>Brooklyn, New York, United
+                                        States</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-phone"></i><span>+0123-456789</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i><span>example@example.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main1-text4">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col2">
+                        <div class="col-text">
+                            <h2>Company</h2>
+                        </div>
+                        <div class="col-list">
+                            <ul>
+                                <li>About</li>
+                                <li>Blog</li>
+                                <li>All Products</li>
+                                <li>Location Map</li>
+                                <li>FAQ</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col2">
+                        <div class="col-text">
+                            <h2>Services</h2>
+                        </div>
+                        <div class="col-list">
+                            <ul>
+                                <li>Order Tracking</li>
+                                <li>Wish List</li>
+                                <li>Login</li>
+                                <li>My Account</li>
+                                <li>Terms & Conditions</li>
+                                <li>Promotional Offers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col2">
+                        <div class="col-text">
+                            <h2>Customer Care</h2>
+                        </div>
+                        <div class="col-list">
+                            <ul>
+                                <li>Login</li>
+                                <li>My Account</li>
+                                <li>Wish List</li>
+                                <li>Order Tracking</li>
+                                <li>FAQ</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col1">
+                        <div class="newsletter-head">
+                            <h2>Newsletter</h2>
+                        </div>
+                        <div class="newsletter-para">
+                            <p>Subscribe to our weekly Newsletter and receive updates via email.</p>
+                        </div>
+                        <div class="newsletter-box">
+                            <input type="email" name="email" id="email" placeholder="Email*" width="100%">
+                            <span class="letter-arrow"><i class="fa-solid fa-location-arrow fa-2x"></i></span>
+                        </div>
+                        <div class="newletter-img">
+                            <h3>We Accept</h3>
+                            <img src="images/payment.png" alt="payment" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="terms">
+            <div class="terms-main">
+                <div class="terms-row">
+                    <div class="terms-col1">
+                        All Rights Reserved @ Company 2022
+                    </div>
+                    <div class="terms-list">
+                        <ul>
+                            <li>
+                                Terms & Condition
+                            </li>
+                            <li>
+                                Claim
+                            </li>
+                            <li>
+                                Privacy & Policy
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="bottomup hidden">
+            <a href="#top">
+                <i class="fa-solid fa-angle-up"></i>
+            </a>
+        </div>
+    </div>
+
+
+    <!------------------------------------- Script Section Starts Here ------------------------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <!------------------------------------- Script Section Ends Here ------------------------------------->
+
+</body>
+
+</html>
